@@ -1,5 +1,95 @@
 @charset "UTF-8";
 
+.whole_box{
+  margin: auto;
+  background-color: #ecf1f2;
+  width: 500px;
+  height: 500px;
+  position: relative;
+}
 
+.box_style{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 100px;
+  position: absolute;
+}
+
+.first_box{
+  background-color: #ffefd3;
+  left: 200px;
+  top: 40px;
+  z-index: 1;
+}
+
+.second_box{
+  background-color: #7084de;
+  z-index: 2;
+  top: 120px;
+  right: 120px;
+}
+
+.third_box{
+  background-color: #d0ecea;
+  z-index: 3;
+  top: 200px;
+  right: 40px;
+}
+
+.fourth_box{
+  background-color: #8b7a5e;
+  z-index: 4;
+  bottom: 120px;
+  right: 120px;
+}
+
+.fifth_box{
+  background-color: #9fd6d2;
+  z-index: 5;
+  bottom: 40px;
+  left: 200px;
+}
+
+.sixth_box{
+  background-color: #fffee4;
+  z-index: 6;
+  bottom: 120px;
+  left: 120px;
+}
+
+.seventh_box{
+  background-color: #deae70;
+  z-index: 7;
+  top: 200px;
+  left: 40px;
+}
+
+.eighth_box{
+  background-color: #de70cf;
+  position: relative;
+  top: 120px;
+  left: 120px;
+  z-index: 8;
+}
+
+.eighth_box::after{
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+  background-color: #ffefd3;
+  width: 20px;
+  height: 20px;
+}
+
+.scroll_button{
+  position: fixed;
+  bottom: 50px;
+  right: 50px
+}
 /* q3が終わったら
 q4のcssはq4フォルダの中のcssファイルに記述してください */

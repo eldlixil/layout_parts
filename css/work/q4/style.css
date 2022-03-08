@@ -1,5 +1,60 @@
 @charset "UTF-8";
 
+.q4_text_position{
+  text-align: center;
+}
+
+.blue_text_box{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.blue_margin_box{
+  margin: auto;
+}
+
+.table_white_box{
+  display: inline-block;
+  padding: 55px;
+}
+
+.blue_table_box{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.blue_flex_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.q4_kotei_large{
+  position: relative;
+}
+
+.q4_kotei {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right:0;
+  left: 0;
+  margin: auto;
+}
+
+.q4_kahen_large{
+  position: relative;
+}
+
+.q4_kahen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+
+
 
 /* q4が終わったら
 q5のcssはq5フォルダの中のcssファイルに記述してください */
