@@ -29,7 +29,7 @@
   align-items: center;
 }
 
-.q4_kotei_large{
+.q4_large_position{
   position: relative;
 }
 
@@ -40,10 +40,6 @@
   right:0;
   left: 0;
   margin: auto;
-}
-
-.q4_kahen_large{
-  position: relative;
 }
 
 .q4_kahen {
