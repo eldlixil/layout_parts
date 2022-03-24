@@ -1,5 +1,23 @@
 @charset "UTF-8";
 
+.q6_2_animation{
+  margin-top: 50px;
+  text-align: center;
+  overflow: visible;
+  width: 960px;
+  font-size: 200px;
+  font-weight: bolder;
+  animation: slidein 10s infinite linear;
+}
 
+@keyframes slidein{
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
 /* q6が終わったら
 q7のcssはq7フォルダの中のcssファイルに記述してください */
